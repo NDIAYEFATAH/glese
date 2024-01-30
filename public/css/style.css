@@ -1,0 +1,60 @@
+fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	/* padding: 20px 30px; */
+	box-sizing: border-box;
+	width: 100%;
+	/* margin: 0 5% 3%; */
+
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+
+.legend{
+  background: #007bff;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    padding-left: 16px;
+}
+
+.register{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%; 
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    /* margin-top: 30%; */
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.register-left p{
+    font-weight: lighter;
+    /* padding-top: 12%; */
+    /* margin-top: -5%; */
+}
+.register .register-form{
+    padding: 8%;
+}
+
+
